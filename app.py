@@ -30,3 +30,8 @@ if img_file_buffer is not None:
             emotion = emotion_labels[np.argmax(pred)]
             st.success(f"Detected Emotion: **{emotion}**")
             break
+
+"""
+Developed by Sumanth Kumar Reddy Bijivemula
+Here, 7 facial Expressions can be detected
+"""
