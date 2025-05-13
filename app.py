@@ -31,7 +31,9 @@ if img_file_buffer is not None:
             st.success(f"Detected Emotion: **{emotion}**")
             break
 
-"""
-Developed by Sumanth Kumar Reddy Bijivemula
-Here, 7 facial Expressions can be detected
-"""
+st.markdown(
+    """
+    **This project was developed by Bijivemula Sumanth Kumar Reddy. The CNN model was trained using the HES Dataset:**
+    [Explore the HES Dataset on Kaggle](https://www.kaggle.com/datasets/muhammadhananasghar/human-emotions-datasethes)
+    """
+)
