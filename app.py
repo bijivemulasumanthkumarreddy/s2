@@ -6,7 +6,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 # Load the model in Keras format
-model = load_model("Emotion_model.keras")
+model = load_model("Emotion_model_clean.keras")
 
 # Emotion labels
 emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
